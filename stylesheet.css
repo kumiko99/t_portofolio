@@ -1,0 +1,262 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin:0 auto;
+    background-color:#fffaf0;
+
+}
+main {
+    margin:0 auto;
+    background-color:#ffffff;
+    width:1000px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.container{
+    width:800px;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 70px;
+}
+
+header {
+    background-color: #006600;
+    background-size:cover;
+}
+.container_header {
+    width:1000px;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 50px;
+}
+
+
+
+.nav_list{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav_list li{
+
+   font-size: 14px;
+   padding: 0 25px;
+   letter-spacing: 2px;
+
+}
+.nav_list li:hover{
+    text-decoration: underline;
+}
+
+.nav_list a{
+    color:#ffffff;
+}
+h1{
+    padding-top:40px;
+    text-align: center;
+}
+
+h1 img {
+    width:430px;
+}
+.main_logo{
+    font-size:25px;
+    letter-spacing: 4px;
+    font-weight: 70;
+    background-image: url(images/logoitem.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 30px;
+    border-bottom: solid 3px #CC9966;
+    font-family: Tsukushi A Round Gothic;
+
+
+}
+
+
+
+.contents{
+    display: flex;
+    justify-content: center;
+
+  }
+  .about_text{
+      font-size: 16px;
+      padding-left: 80px;
+      padding-top:30px;
+
+  }
+
+
+  .photo img{
+      width: 200px;
+      padding:30px;
+  }
+
+
+  .maintext{
+      font-size: 14px;
+      padding: 30px 0px 0px 80px;
+      width:310px;
+  }
+  .maintext P{
+     line-height: 1.8;
+  }
+
+  .profile {
+      background-image: url(images/triangle.png);
+      background-repeat: no-repeat;
+      background-position: 0px center;
+      padding-left: 20px;
+      border-bottom: dashed 2px #CC9966;
+      width:260px;
+  }
+  section {
+      background-color: beige;
+      width:1200px;
+      margin:0 auto;
+      text-align: center;
+  }
+  .skills{
+      background-color: #F5DEB3;
+  }
+  .skill_contents{
+      display: flex;
+      justify-content: center;
+
+
+  }
+  .skill_example{
+      margin: 30px 0px 0px 10px;
+      text-align: center;
+  }
+
+  .sub_logo{
+      font-size: 16px;
+      margin:0 auto;
+      letter-spacing: 2px;
+  }
+
+  .skill_icon img{
+      width: 80px;
+  }
+  .skill_icon_design img{
+      width:60px;
+      margin:10px;
+  }
+
+  .logo_word {
+      font-size:18px;
+      padding-left: 10px;
+  }
+  .work_contents img{
+      width: 220px;
+      padding-top:10px;
+   }
+
+
+  .work_contents{
+      text-align:center;
+
+  }
+  .work_sub{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .work_content p{
+      padding-top:20px;
+
+  }
+  .click:hover {
+      opacity: 0.5;
+  }
+  .under {
+      letter-spacing: 2px;
+      font-size:16px;
+      border-bottom: solid 3px #80808052;
+  }
+
+  .work_title {
+      margin-top:5px;
+      margin-bottom:10px;
+  }
+  .work_maintext {
+      text-align: center;
+  }
+  .work_maintext p {
+      text-align: left;
+      font-size:14px;
+      padding: 4px;
+      margin: 0px;
+      line-height: 1.8;
+  }
+
+  .work_box_gourmet {
+      width: 300px;
+      border: 1px solid #80808052;
+      text-align: center;
+      background-color: #eeeeee;
+  }
+  .work_box {
+      width: 300px;
+      border: 1px solid #80808052;
+      text-align: center;
+      background-color: #eeeeee;
+      margin: 10px 10px 10px 30px;
+  }
+  .work_bunner_contents {
+      margin-top:40px;
+  }
+  .work_bunner_contents p {
+      text-align: center;
+  }
+  .work_bunner {
+      width:500px;
+      height:300px;
+      border: 1px solid #80808052;
+      overflow-y:scroll;
+      background-color: #EEEEEE;
+      margin: 0 auto;
+  }
+  .bunner_box img {
+      width:350px;
+      padding-top:20px;
+  }
+
+  .bunner_box {
+
+
+      margin:0 auto;
+      text-align: center;
+  }
+
+  .bunner_text {
+      margin-top:5px;
+  }
+  .bunner_text p {
+
+      border: 1px solid  #80808052;
+      width:350px;
+      font-size:14px;
+      line-height: 1.8;
+      margin:0 auto;
+      text-align: left;
+  }
+  footer {
+      padding-top:2px;
+      padding-bottom: 2px;
+      background-color: #006600;
+  }
+
+  footer .nav_list{
+       justify-content: center;
+
+    }
